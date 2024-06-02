@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "^1.30.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
