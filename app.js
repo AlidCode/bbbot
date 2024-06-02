@@ -235,7 +235,6 @@ function PlantillaMantasTematicasLETRA(client) {
   });
 }
 
-
 function PlantillaMantasTematicasLETRA2(client) {
   client.onMessage((message) => {
 
@@ -1419,7 +1418,7 @@ function spamMantasMascotas(client) {
         client
           .sendImage(
             onAnyMessage.to,
-            'path/MASCOTAS/1.jpg',
+            'path/mascotas/1.jpg',
             '',
             'Mantas mascota de Felpa Ultra suaves 🐥🐶🐰🦊'
             + '\n' + 'Todo es personalizable'
@@ -1464,7 +1463,7 @@ function spamMantasMascotas(client) {
         client
           .sendImage(
             onAnyMessage.to,
-            'path/MASCOTAS/2.jpg',
+            'path/mascotas/2.jpg',
             '5.jpg',
             'Mas diseños :D')
           .then((result) => {
@@ -1481,7 +1480,7 @@ function spamMantasMascotas(client) {
         client
           .sendImage(
             onAnyMessage.to,
-            'path/MASCOTAS/3.jpg',
+            'path/mascotas/3.jpg',
             '3.jpg',
             '*Fotos de clientes* https://www.instagram.com/reel/C5cXpc8tzNA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==')
           .then((result) => {
